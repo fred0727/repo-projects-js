@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(rgb(80, 118, 161),rgb(241, 241, 237));
+    height: 80vh;
+}
+
+div{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+h1{
+    color: rgb(173, 16, 16);
+    font-size: 4.5rem;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+p{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: rgb(88, 88, 88);
+}
+
+form{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+form input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form label{
+    letter-spacing: 1px;
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(34, 81, 151);
+    border: 1px solid rgb(184, 184, 184);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(50, 99, 173);
+}
+
+#message{
+    margin-top: 20px;
+    font-style: italic;
+    color: rgb(212, 65, 65);
+}
