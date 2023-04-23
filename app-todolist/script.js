@@ -132,5 +132,6 @@ function cargarLista(DATA){
 const buttonreset = document.getElementById('reset-todo')
 buttonreset.addEventListener('click', () => {
     localStorage.clear();
+    window.location.href = "index.html"
 })
 
